@@ -53,10 +53,10 @@ printf("Código da carta: %s\n", codigocarta);
 printf("Nome da cidade: %s\n", cidade);
 printf("População: %d\n", populacao);
 printf("Área (em km²): %.2f\n", area);
-printf("PIB: %.2f\n", pib);
+printf("PIB: %.2f bilhões de reaisb\n", pib);
 printf("Número de Pontos Túristicos: %d\n", turismo);
 printf("Densidade populacional: %.2f hab/km²\n", populacao / area); //Densidade populacional
-printf("PIB per Capita: %.2f reais\n\n", pib / populacao); //PIB per Capita
+printf("PIB per Capita: %.2f reais\n\n", pib * 1000000000 / populacao); //PIB per Capita digitado em bilhões
 
 printf("Sua carta 2: \n\n"); //Descrição da segunda carta
 printf("Estado: %c\n", estado2);
@@ -64,10 +64,10 @@ printf("Código da carta: %s\n", codigocarta2);
 printf("Nome da cidade: %s\n", cidade2);
 printf("População: %d\n", populacao2);
 printf("Área (em km²): %.2f\n", area2);
-printf("PIB: %.2f\n", pib2);
+printf("PIB: %.2f bilhões de reais\n", pib2);
 printf("Número de Pontos Túristicos: %d\n", turismo2);
 printf("Densidade populacional: %.2f hab/km²\n", populacao2 / area2); //Densidade populacional
-printf("PIB per Capita: %.2f reais\n\n", pib2 / populacao2); //PIB per Capita
+printf("PIB per Capita: %.2f reais\n\n", pib2 * 1000000000 / populacao2); //PIB per Capita digitado em bilhões
 
 printf("Obrigado!\n");  // Terminado.
 
